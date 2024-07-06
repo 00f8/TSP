@@ -13,9 +13,7 @@ workspace.DropBoard.Board.SurfaceGui.ImageLabel.Image = "rbxthumb://type=Asset&i
 workspace.DropBoard.Board.SurfaceGui.InfoLabel.Text = "Copies: 10, Price: 100,000"
 workspace.DropBoard.Board.SurfaceGui.DateLabel.Text = string.format("%dd %02dh %02dm %02ds", days, hours, minutes, seconds)
 
-print(secondsLeft)
-
-if secondsLeft >= 0 then
+if secondsLeft <= 0 then
 	workspace.DropBoard.Board.SurfaceGui.DateLabel.Visible = false
 else
 	workspace.DropBoard.Board.SurfaceGui.DateLabel.Visible = true
