@@ -10,5 +10,5 @@ local seconds = math.floor(secondsLeft % 60)
 	
 workspace.DropBoard.Board.SurfaceGui.MessageLabel.Text = "Domino Crown"
 workspace.DropBoard.Board.SurfaceGui.ImageLabel.Image = "rbxthumb://type=Asset&id=1031429&w=420&h=420"
-workspace.DropBoard.Board.SurfaceGui.InfoLabel.Text = "Copies: 25, Price: 100,000 " .. "(" .. string.format("%dd %02dh %02dm %02ds", days, hours, minutes, seconds) .. ")"
+workspace.DropBoard.Board.SurfaceGui.InfoLabel.Text = "Copies: 25, Price: 100,000 "
 workspace.DropBoard.Board.SurfaceGui.DateLabel.Text = string.format("%dd %02dh %02dm %02ds", days, hours, minutes, seconds)
